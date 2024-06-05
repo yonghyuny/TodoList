@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "KyoboHandwriting2023wsa";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/KyoboHandwriting2023wsa.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "KyoboHandwriting2023wsa";
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.title {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.header {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.prev,
+.next {
+  background-color: inherit;
+  border: none;
+}
+
+.reset {
+  background-color: inherit;
+  border: none;
+  font-family: "KyoboHandwriting2023wsa";
+}
+
+.prev:hover,
+.next:hover,
+.addBtn:hover,
+.cancleBtn:hover,
+.checkbox:hover,
+.todo:hover,
+.time:hover,
+.reset:hover {
+  cursor: pointer;
+}
+
+.today {
+  display: flex;
+  gap: 10px;
+  width: 100px;
+}
+.date {
+  font-size: 30px;
+}
+
+.mon_year {
+  font-size: 15px;
+}
+
+.day {
+  font-size: 15px;
+  width: 100px;
+}
+
+.todayTime {
+  font-size: 20px;
+  width: 100px;
+}
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.add {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.addBtn {
+  background-color: inherit;
+  border-radius: 50%;
+  padding: 20px;
+  border: 1px solid inherit;
+}
+
+.complete {
+  color: #dbdbdb;
+}
+
+.cancleBtn {
+  font-family: "KyoboHandwriting2023wsa";
+  font-size: 15px;
+  width: 50px;
+  height: 25px;
+  background-color: inherit;
+  border-radius: 5px;
+}
